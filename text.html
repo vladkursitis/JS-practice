@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function lCat(cat) {
+            return cat.startsWith("L");
+        }
+
+        const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+        const filtered = cats.filter(lCat);
+
+        console.log(filtered);
+    </script>
+
+</body>
+
+</html>
